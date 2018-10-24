@@ -1,0 +1,154 @@
+@charset "gb2312";
+/* CSS Document */
+
+.banner{
+	width:1000px;
+	height:155px;
+	background-image:url(../img/banner.jpg);
+	background-color:white ;
+	position:absolute;
+    top:0px;
+    margin:0cm 4.85cm;
+	/*filter:alpha(Opacity=60);-moz-opacity:0.6;*/opacity: 0.8;
+	z-index:4;
+	margin:auto;
+    }
+    .menu {
+        font-family: arial, sans-serif;
+        width:1000px;
+        text-align: center;
+        float:right;
+        margin-top:115px;
+        
+        
+        
+    } 
+    /* remove the bullets and set the margin and padding to zero for the unordered list */ 
+    .menu ul {
+        margin-left:-40px;
+        margin-left:0px\9;
+        list-style-type: none;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    } 
+    /* float the list so that the items are in a line and their position relative so that the drop down list will appear in the right place underneath each list item */ 
+    .menu ul li { 
+    float:left; 
+    position:relative; 
+    } 
+    /* style the links to be 104px wide by 30px high with a top and right border 1px solid white. Set the background color and the font size. */ 
+    .menu ul li a, .menu ul li a:visited {
+    
+        display:block;
+        text-decoration:none;
+        width:110px;
+        height:40px;
+        color:#000;
+        border:1px solid #fff;
+        border-width:1px 1px 0 0;
+        
+        line-height:40px;
+        font-size:15px;
+        
+    } 
+    /* make the dropdown ul invisible */ 
+    .menu ul li ul { 
+    display: none; 
+    } 
+    /* specific to non IE browsers */ 
+    /* set the background and foreground color of the main menu li on hover */ 
+    .menu ul li:hover a { 
+    color:#fff; 
+    background:#55C1C1; 
+    } 
+    /* make the sub menu ul visible and position it beneath the main menu list item */ 
+    .menu ul li:hover ul { 
+    display:block; 
+    position:absolute; 
+    top:40px; 
+    left:0px; 
+    width:105px; 
+    
+    } 
+    /* style the background and foreground color of the submenu links */ 
+    .menu ul li:hover ul li a { 
+    display:block; 
+    background:#55C1C1; 
+    color:#000; 
+    } 
+    /* style the background and forground colors of the links on hover */ 
+    .menu ul li:hover ul li a:hover {
+        background:#36C;
+        color:#000;
+        text-align:center;
+    }
+    .latest{
+        width:176px;
+        height:52px;
+        text-align:center;
+        line-height:52px;
+        font-family: "黑体";
+        font-size: 38px;
+        color:black;
+        margin: 12.5cm 2cm  2cm 0cm ;
+    }
+    .daf{
+        width:330px;
+        height:43px;
+        text-align:center;
+        margin-top: 10px;
+        font-family: "黑体";
+        font-size: 28px;
+        color:black;
+        margin: -2cm 2cm 2cm -2cm;
+    }
+    .agaga{
+        width:330px;
+	    height: 187px;
+        overflow: hidden;
+        margin: -2cm 2cm 2cm 0.5cm ;
+    }
+    .abc{
+        width:330px;
+        height:43px;
+        text-align:center;
+        margin-top: 10px;
+        font-family: "黑体";
+        font-size: 28px;
+        color:black;
+        margin: -8.1cm 1cm 2cm 16cm ;
+    }
+    .sdf{
+        width:330px;
+	    height: 187px;
+        overflow: hidden;
+        margin: -2cm 1cm 2cm 18.5cm ;
+    }
+    .gfyuaf{
+        margin: -9cm 0cm;
+
+    }
+    .wenzi{
+        margin: 9cm 0cm;
+    }
+    .fsf{
+        margin: -240px 0px
+    }
+    .a{
+        width: 328px;
+        height: 150px;
+        background-color: rgb(0, 200, 250)
+    }
+    .lalab{
+        font-family: "黑体";
+        font-size: 32px;
+        color: #000;
+        text-align: center;
+    }
+
+
+
+
+
